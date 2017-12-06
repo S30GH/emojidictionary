@@ -16,14 +16,9 @@ class DefinitionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        print(emoji)
     }
 
-    
-    emojiLabel.text = emoji
-    
-    // Is this working in swift 4?
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
